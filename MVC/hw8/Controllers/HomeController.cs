@@ -15,7 +15,7 @@ namespace hw8.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "I'm so happy you're here! Connect with me so I can connect with you!";
 
             return View();
         }
