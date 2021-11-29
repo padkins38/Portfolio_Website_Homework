@@ -20,9 +20,21 @@ namespace hw8.Controllers
             return View();
         }
 
+        public ActionResult Projects()
+        {
+            return View();
+        }
+
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Available from 8AM - 9PM for messaging! I will replay ASAP after receiving your message.";
+
+            return View();
+        }
+
+        public ActionResult Employment_History()
+        {
+            ViewBag.Message = "Your Employment History page here.";
 
             return View();
         }
